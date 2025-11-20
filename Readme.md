@@ -79,9 +79,8 @@ aws-comparison-tool/
 
 
 
-<img width="1427" height="712" alt="Screenshot 2025-11-20 at 9 19 25 PM" src="https://github.com/user-attachments/assets/82184786-d097-4c2f-9e2f-584c8950556f" />
+<img width="1440" height="900" alt="Screenshot 2025-11-20 at 9 44 43 PM" src="https://github.com/user-attachments/assets/0e45ee09-cd4f-47b9-8045-a1123d55955e" />
 
-
-<img width="1434" height="752" alt="Screenshot 2025-11-20 at 9 20 20 PM" src="https://github.com/user-attachments/assets/c09543ef-0c95-45de-b656-4444136b1b1c" />
 
 Deployed!
+
