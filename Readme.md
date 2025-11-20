@@ -1,5 +1,3 @@
-AWS services comparison tool
-
 # ☁️ AWS Cloud Services Comparison Tool
 
 > A full-stack research engine designed to provide accurate, side-by-side comparisons of AWS services, their pricing models, and free tier limits.
@@ -78,4 +76,5 @@ aws-comparison-tool/
 │   ├── package.json        # Node Dependencies
 │   └── tailwind.config.js  # Design System Config
 └── README.md               # You are here
+
 
