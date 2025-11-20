@@ -1,0 +1,57 @@
+[
+    {
+      "id": "ec2",
+      "name": "Amazon EC2",
+      "category": "Compute",
+      "description": "Secure, resizable compute capacity in the cloud. It provides granular control over virtual servers.",
+      "useCase": "Hosting websites, enterprise applications, gaming servers.",
+      "pricingModel": "On-Demand, Spot, Reserved Instances, Savings Plans",
+      "freeTier": "750 hours/month (t2.micro or t3.micro) for 12 months",
+      "pros": ["Highly flexible", "Full root access", "Wide variety of instance types"],
+      "cons": ["Requires OS management", "Can be expensive if over-provisioned"]
+    },
+    {
+      "id": "lambda",
+      "name": "AWS Lambda",
+      "category": "Compute",
+      "description": "Run code without thinking about servers. Upload your code and Lambda takes care of everything required to run and scale it.",
+      "useCase": "API backends, file processing, scheduled cron jobs, event-driven applications.",
+      "pricingModel": "Pay per request & compute time (duration * memory)",
+      "freeTier": "1 million requests & 400,000 GB-seconds per month (Always Free)",
+      "pros": ["No server management", "Scales to zero cost", "Automatic scaling"],
+      "cons": ["Cold start latency", "15-minute execution limit", "Complex debugging"]
+    },
+    {
+      "id": "s3",
+      "name": "Amazon S3",
+      "category": "Storage",
+      "description": "Object storage service that offers industry-leading scalability, data availability, security, and performance.",
+      "useCase": "Backup and restore, static website hosting, data lakes, archive.",
+      "pricingModel": "Pay for storage used (GB), requests, and data transfer out",
+      "freeTier": "5GB Standard Storage, 20,000 Get Requests, 2,000 Put Requests for 12 months",
+      "pros": ["Infinite scaling", "99.999999999% durability", "Static website hosting capability"],
+      "cons": ["Consistency models can be complex (though improved)", "High request costs for small objects"]
+    },
+    {
+      "id": "dynamodb",
+      "name": "Amazon DynamoDB",
+      "category": "Database",
+      "description": "Key-value and document database that delivers single-digit millisecond performance at any scale.",
+      "useCase": "Mobile backends, gaming leaderboards, shopping carts, real-time bidding.",
+      "pricingModel": "On-demand (pay per R/W request) or Provisioned Capacity",
+      "freeTier": "25GB storage & 25 Read/Write Capacity Units (Always Free)",
+      "pros": ["Fast & consistent performance", "Serverless", "Built-in multi-region replication"],
+      "cons": ["Query patterns are inflexible (NoSQL)", "No Joins", "Cost can spike with poor schema design"]
+    },
+    {
+      "id": "rds",
+      "name": "Amazon RDS",
+      "category": "Database",
+      "description": "Managed relational database service that makes it easier to set up, operate, and scale a relational database in the cloud.",
+      "useCase": "Traditional web applications (WordPress, Magento), ERPs, structured data.",
+      "pricingModel": "Per instance hour + storage provisioned",
+      "freeTier": "750 hours/month of db.t2.micro or db.t3.micro Single-AZ for 12 months",
+      "pros": ["Supports MySQL, Postgres, MariaDB, SQL Server, Oracle", "Automated backups", "Multi-AZ high availability"],
+      "cons": ["Less scalable than NoSQL", "Downtime for some vertical scaling operations", "More expensive than raw EC2"]
+    }
+  ]
