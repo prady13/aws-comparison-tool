@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Search, Server, Database, HardDrive, Cloud, X, Plus, Check, AlertCircle } from 'lucide-react';
 
 // --- Types ---
@@ -137,7 +137,7 @@ export default function App() {
     const fetchData = async () => {
       try {
         // FETCHING FROM YOUR LOCAL PYTHON BACKEND
-        const response = await fetch('http://127.0.0.1:8000/services');
+        const response = await fetch('https://kxozc2vuvuoj2qlnvo3kxemaga0ruebx.lambda-url.us-east-1.on.aws/');
         
         if (!response.ok) {
           throw new Error('Network response was not ok');
